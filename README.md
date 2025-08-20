@@ -45,7 +45,8 @@ QueryX is an AI-based tool that allows users to interact with CSV datasets using
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/queryx-ai.git
+git clone https://github.com/abhinavyy/QueryX.git
+
 cd queryx-ai
 
 # 2. Install dependencies
