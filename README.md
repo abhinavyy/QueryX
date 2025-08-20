@@ -47,7 +47,6 @@ QueryX is an AI-based tool that allows users to interact with CSV datasets using
 # 1. Clone the repository
 git clone https://github.com/abhinavyy/QueryX.git
 
-cd queryx-ai
 
 # 2. Install dependencies
 pip install -r requirements.txt
