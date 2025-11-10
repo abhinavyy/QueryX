@@ -1,5 +1,4 @@
 streamlit
-pandas
-python-dotenv
+pandas 
 google-generativeai
-sqlite3-binary
+python-dotenv

@@ -1,3 +1,21 @@
+# ===============================================
+# Update: Google API Key Handling (Security Patch)
+# -----------------------------------------------
+# Previously, the Google Gemini API key was hardcoded
+# directly inside the script, which exposed the key
+# publicly and risked unauthorized usage.
+#
+# This update removes the hardcoded key and loads it
+# securely from a local `.env` file using python-dotenv.
+#
+# Key improvements:
+#   • API key is now stored in `.env` and excluded via .gitignore
+#   • Prevents accidental exposure in GitHub or deployments
+#   • Enables safer and scalable deployment on Streamlit Cloud
+#
+# Environment variable used:
+#   GEMINI_API_KEY=<your_api_key>
+# ===============================================
 import streamlit as st
 import pandas as pd
 import sqlite3
